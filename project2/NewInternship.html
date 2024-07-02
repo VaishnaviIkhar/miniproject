@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                background-image:url("https://wallpaperset.com/w/full/4/0/9/436151.jpg");
+            }
+            h1{
+                color: white;
+                text-shadow: 1px 1px 2px yellow, 0 0 25px skyblue, 0 0 5px yellow;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <h1 style='height:40px; font-size:50px'>New Registration</h1><hr><hr>
+        <form action="FormTable.jsp">
+        <table border="0">
+          
+            <tbody>
+                <tr>
+                    <td style="font-size:25px">Program Title:</td>
+                    <td><input type="text" name="title" value="" style=""/></td>
+                </tr>
+                <tr>
+                    <td style="font-size:25px">Duration:</td>
+                    <td><b>Start From:</b><input type="date" name="cal1" value="" />   <b>End to:</b><input type="date" name="cal2" value="" /></td>
+                </tr>
+                <tr>
+                    <td style="font-size:25px">Technology/Tools:</td>
+                    <td><select name="tools">
+                            <option value="Java">Java</option>
+                            <option value="React.js">React.js</option>
+                            <option value="JavaScript">JavaScript</option>
+                            <option value="NET">NET</option>
+                            <option value="PHP">PHP</option>
+                            <option value="Python">Python</option>
+                            <option value="C">C</option>
+                            <option value="C++">C++</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td style="font-size:25px">Project Manager Details:</td>
+                    <td><input type="text" name="manager" value="" /></td>
+                </tr><br>
+                <tr>
+                    <td><input type="reset" value="Reset" /></td>
+                    <td><input type="submit" value="Submit" /></td>
+                </tr>
+            </tbody>
+        </table>
+        </form>
+
+    
+    </body>
+</html>
